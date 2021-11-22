@@ -1,4 +1,4 @@
-# project2_2
+# Prac_RestAPI
 easy_ocr사용
 
 python3.8버전
