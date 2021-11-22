@@ -16,6 +16,9 @@
 	text-align: center;
 }
 
+.form-group {
+	margin: 1rem
+}
 #loading > img {
 	position: absolute;
 	top: 45%;

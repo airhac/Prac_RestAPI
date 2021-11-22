@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 #충돌 오류 때문에 기록...
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
-
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap4',
     'animateapp',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+      	# 추가적인 renderer
+    ]
+}

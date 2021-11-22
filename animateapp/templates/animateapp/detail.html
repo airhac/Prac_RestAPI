@@ -7,15 +7,15 @@
         <div class="my-5">
             <!-- 영상보여주는 부분 -->
             <video id="vid" width="450"  controls autoplay muted playsinline>
-                <source src="{{ target_animate.ani.url }}" type="video/mp4">
-                <object data="{{ target_animate.ani.url }}" width="320" height="240">
-                <embed src="{{ target_animate.ani.url }}" width="320" height="240">
+                <source src="{{ target_animate.ani }}" type="video/mp4">
+                <object data="{{ target_animate.ani }}" width="320" height="240">
+                <embed src="{{ target_animate.ani }}" width="320" height="240">
                 </object>
             </video>
         </div>
         <div class="my-5">
             <!-- 영상 다운로드 -->
-            <a href="{{ target_animate.ani.url }}"
+            <a href="{{ target_animate.ani }}"
                class="btn btn-success rounded-pill px-5" download="video">
                 다운로드
             </a>
