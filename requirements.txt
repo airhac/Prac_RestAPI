@@ -15,7 +15,6 @@ Django @ file:///tmp/build/80754af9/django_1625585912945/work
 django-bootstrap4==21.1
 django-filter==21.1
 djangorestframework==3.12.4
-easyocr==1.4.1
 flatbuffers==1.12
 gast==0.4.0
 google-auth==1.35.0
@@ -38,14 +37,9 @@ libclang==12.0.0
 Markdown==3.3.4
 matplotlib==3.4.3
 matplotlib-inline==0.1.2
-mkl-fft==1.3.1
-mkl-random @ file:///C:/ci/mkl_random_1626186184278/work
-mkl-service==2.4.0
 networkx==2.6.3
 numpy==1.19.5
 oauthlib==3.1.1
-olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
-opencv-python==4.5.4.58
 opencv-python-headless==4.5.4.58
 opt-einsum==3.3.0
 parso==0.8.2
@@ -69,7 +63,6 @@ requests-oauthlib==1.3.0
 rsa==4.7.2
 scikit-image==0.18.3
 scipy==1.7.2
-six @ file:///tmp/build/80754af9/six_1623709665295/work
 soupsieve==2.3.1
 sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
 tensorboard==2.6.0
@@ -77,12 +70,9 @@ tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 tensorflow==2.6.0
 tensorflow-estimator==2.7.0
-tensorflow-gpu==2.7.0
 tensorflow-io-gcs-filesystem==0.22.0
 termcolor==1.1.0
 tifffile==2021.11.2
-torch==1.10.0
-torchvision==0.11.1
 tornado==6.1
 traitlets==5.0.5
 typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
@@ -91,4 +81,3 @@ wcwidth==0.2.5
 Werkzeug==2.0.2
 wincertstore==0.2
 wrapt==1.13.3
-
