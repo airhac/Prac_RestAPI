@@ -6,7 +6,7 @@ class Animate(models.Model):
     #맨처음 이미지만 등록
     image = models.ImageField(upload_to='ani_image/', null=True, blank=True)
     #만화책 방향이 좌->우 인지 우->좌 인지 확인
-    left_right_choice = (('좌', '좌->우'), ('우', '우->좌'))
+    left_right_choice = (('L', '좌->우'), ('R', '우->좌'))
     left_right = models.CharField(max_length=5, choices=left_right_choice, default='좌')
     # 웹툰형식인지 만화책형식인지 결정
     toon_comic_choice = (('T', '웹툰 형식'), ('C', '만화책형식'))
