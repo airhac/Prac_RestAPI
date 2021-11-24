@@ -34,6 +34,11 @@
         $(document).ready(function() {
             $('#loading').hide();
             $('#next').submit(function(){
+                var fileCheck = document.getElementById("files").value;
+                if(!fileCheck){
+                alert("파일을 첨부해 주세요");
+                return false;
+                }
                 $('#loading').show();
                 return true;
             });

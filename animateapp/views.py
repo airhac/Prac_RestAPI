@@ -3,7 +3,7 @@ import requests
 import base64
 import json
 from django.http import HttpResponseRedirect
-from django.urls import reverse, reverse_lazy
+from django.urls import reverse
 from django.views.generic import CreateView, DetailView
 
 from rest_framework.renderers import JSONRenderer
