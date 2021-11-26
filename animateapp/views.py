@@ -59,10 +59,10 @@ class AnimateCreateView(CreateView):
             renderer = JSONRenderer()
             json_data = renderer.render(post_json.data) #직렬화를 통한 dictionary를 json으로 바꿔줍니다.
             headers = {'Content-Type': 'application/json'}
-            url = "http://2d7c-220-95-61-189.ngrok.io/models/model/" #post를 보낼 url을 지정
+            url = "http://3737-220-95-61-189.ngrok.io/models/model/" #post를 보낼 url을 지정
             res = requests.post(url, data=json_data, headers=headers) #json형태로 data를 보냅니다.respone으로 url을 받아 옵니다
             # model_server로 부터 받은 데이터를 처리
-            respone_url = 'http://2d7c-220-95-61-189.ngrok.io/media/' + str(res.text)[1:-1]
+            respone_url = 'http://3737-220-95-61-189.ngrok.io/media/' + str(res.text)[1:-1]
             animate = form.save(commit=False)
             animate.ani = respone_url
             animate.save()
