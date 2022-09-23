@@ -22,6 +22,7 @@
 
 ## 🏗 System Architecture
 
+![대체 텍스트](./image/busan.jpg)
 
 
 ## ⚙️ Environments
