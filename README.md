@@ -16,7 +16,7 @@
   * 기존의 직접 스크롤을  내리거나 밀거나 하는 방식에서 빠르게 영상화하여 만화, 웹툰 읽기부분 편리화 
   * 만화를 영상으로 만드는데 있어서 많은 컷구분 작업과 일일이 그려줘야함 만화 영상화 작업 중 영상 제작에 있어 제작기간 및 비용 70%이상 감소
 ## Video clip
-<img width="80" src="{이미지 경로}"/>
+<img width="80" src="https://user-images.githubusercontent.com/86655679/191901525-be7dcd53-8278-40d7-b9b6-95be9fe50a61.mp4"/>
 
 ## ⚙️ Environments
 
