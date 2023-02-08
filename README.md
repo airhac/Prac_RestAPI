@@ -58,4 +58,4 @@ cf. 이 파일에는 학습 시킨 모델이 올라가 있지않습니다.
 
 ## 모델 서버 부분 깃 링크
 
- 
+ https://github.com/airhac/Model_Server
