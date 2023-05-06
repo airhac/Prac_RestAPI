@@ -36,7 +36,7 @@
 ## 🏗 System Architecture
 
  ### Overall Software Architecture
-![기업 프로젝트(소프트 웨어 아키텍쳐) jpg](https://user-images.githubusercontent.com/86655679/191907952-bbbe3bab-cc68-4216-a6f2-7bcc08b7edce.jpg)
+![기업 프로젝트(소프트 웨어 아키텍쳐) jpg](https://github.com/airhac/Prac_RestAPI/blob/main/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.JPG)
 
 ## ⚙️ Environments
 
